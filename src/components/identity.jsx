@@ -31,6 +31,7 @@ const IdentityPage = () => {
   };
 
   const handleCloseModal = () => {
+    fetchData()
     setModalOpen(false);
   };
   const fetchData = async () => {

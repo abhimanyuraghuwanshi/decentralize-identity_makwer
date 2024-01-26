@@ -45,7 +45,7 @@ const IdentityForm = ({ onCloseForm }) => {
     e.preventDefault();
     setButtonDisabled(true);
     await generateIdentityCard(name,age,address)
-    window.location.reload()
+    onCloseForm();
   };
 
   return (
