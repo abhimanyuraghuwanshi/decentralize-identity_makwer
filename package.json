@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://abhimanyuraghuwanshi.github.io/decentralize-identity_makwer/",
   "scripts": {
     "dev": "vite",
     "predeploy": "vite build",
