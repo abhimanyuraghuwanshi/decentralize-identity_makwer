@@ -1,0 +1,32 @@
+/* styles/Footer.css */
+.footer-container {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info {
+    text-align: left;
+  }
+  
+  .email {
+    text-align: right;
+  }
+  
+  a {
+    color: #6495ed;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
