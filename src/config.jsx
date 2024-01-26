@@ -1,4 +1,5 @@
 const config = {
+  base : '/decentralize-identity_makwer',
   contractAddress : '0x26c5866C2BB49A69093d7ab9ce97619E377429f6',
   contractAbi : [
     "function getUnverified() public view returns (uint256)",

@@ -56,7 +56,7 @@ const IdentityPage = () => {
   console.log(identitiyCard)
   return (
     <div className="identity-page-container">
-      <Link to="/"><button className="back-button" >
+      <Link to={`${config.base}/`}><button className="back-button" >
         Back
       </button></Link>
       <h1>Ethereum Explorer - Identity Page</h1>

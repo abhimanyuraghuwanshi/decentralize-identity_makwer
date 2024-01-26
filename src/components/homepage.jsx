@@ -1,5 +1,6 @@
 import './css/home.css';
 import { Link } from 'react-router-dom';
+import config from '../config'
 
 const Home = () => {
   return (
@@ -20,8 +21,8 @@ const Home = () => {
           Get started today and be a part of the decentralized revolution. Experience the power of self-sovereign identity and take control of your online presence. Your identity, your rules!
         </p>
         <div className="buttons-container">
-        <Link to="/identity"> <button className="btn">Get Started</button> </Link>
-        <Link to="/upcoming"> <button className="btn">Future Updates</button></Link>
+        <Link to={`${config.base}/identity`}> <button className="btn">Get Started</button> </Link>
+        <Link to={`${config.base}/upcoming`}> <button className="btn">Future Updates</button></Link>
         </div>
         <br></br>
       </section>

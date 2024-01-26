@@ -4,16 +4,17 @@ import Upcoming from './components/upcoming';
 import Identity from './components/identity';
 import Footer from './components/footer';
 import './App.css'
+import config from './config'
 
-function App() {
+function App() { 
   return (
     <>
     <div>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/upcoming" element={<Upcoming />} />
-        <Route path="/identity" element={<Identity />} />
+        <Route path={`${config.base}/`} element={<Home />} />
+        <Route path={`${config.base}/upcoming`} element={<Upcoming />} />
+        <Route path={`${config.base}/identity`} element={<Identity />} />
       </Routes>
     </BrowserRouter>
     </div>

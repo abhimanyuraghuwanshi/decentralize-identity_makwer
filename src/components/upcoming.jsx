@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import './css/backbutton.css';
+import config from '../config';
 
 const Upcoming = () => {
   return (
     <div style={{ height: '100vh', padding: '20px' }}>
-      <Link to="/"><button className="back-button" >
+       <Link to={`${config.base}/`}><button className="back-button" >
         Back
       </button></Link>
       <h1>Future Updates</h1>
