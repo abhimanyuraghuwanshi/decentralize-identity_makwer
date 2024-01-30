@@ -84,7 +84,7 @@ const IdentityPage = () => {
         <ul className="identity-list">
         {identitiyCard.length === 0 ? (<>
           <br></br>
-    <p>Fetching data...</p>
+    <p className= 'loader'>Fetching data...</p>
     <br></br>
     </>
   ) : (

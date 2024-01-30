@@ -10,6 +10,11 @@ const Home = () => {
         <h3>Generate your identity on the blockchain securely and trustfully.</h3>
       </header>
       <section className="main-content">
+        <div className="buttons-container">
+        <Link to={`${config.base}/identity`}> <button className="btn">Get Started</button> </Link>
+        <Link to={`${config.base}/upcoming`}> <button className="btn">Future Updates</button></Link>
+        </div>
+        <div className='textbox'>
         <p>
           Welcome to the colorful world of the Decentralized Identity Generator platform. Here, you can create your unique identity on the blockchain, ensuring security and trust in every step. The process is simple, yet powerful, using the latest blockchain technology to safeguard your identity data.
           Join us on this journey of empowerment and self-sovereignty. Your decentralized identity can be verified seamlessly by administrators, offering a reliable and secure environment for you to assert your online presence. The platform guarantees the integrity and immutability of your identity data, making it tamper-proof and resistant to unauthorized modifications.
@@ -20,9 +25,6 @@ const Home = () => {
         <p>
           Get started today and be a part of the decentralized revolution. Experience the power of self-sovereign identity and take control of your online presence. Your identity, your rules!
         </p>
-        <div className="buttons-container">
-        <Link to={`${config.base}/identity`}> <button className="btn">Get Started</button> </Link>
-        <Link to={`${config.base}/upcoming`}> <button className="btn">Future Updates</button></Link>
         </div>
         <br></br>
       </section>
